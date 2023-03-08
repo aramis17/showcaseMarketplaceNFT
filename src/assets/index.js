@@ -8,7 +8,7 @@ import react from "./react.png";
 import scene from "./scene.png";
 import mockup from "./mockup.png";
 
-export default {
+const assets = {
   homeHero,
   homeCards,
   feature,
@@ -18,4 +18,6 @@ export default {
   react,
   scene,
   mockup,
-};
+}
+
+export default assets;
